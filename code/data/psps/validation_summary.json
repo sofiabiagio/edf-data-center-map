@@ -1,0 +1,35 @@
+{
+  "period": "2024-2025",
+  "reported_impact_tract_units": 1546,
+  "metric": "sum_monthly_max_customer_events",
+  "metric_label": "Sum of monthly maximum PSPS events affecting any one reported customer account",
+  "metric_min": 1,
+  "metric_max": 15,
+  "metric_sum": 3838,
+  "source_records": 2971,
+  "located_source_records": 2967,
+  "unlocatable_source_records": 4,
+  "unlocatable_customer_accounts": 23,
+  "geometry_types": [
+    "MultiPolygon",
+    "Polygon"
+  ],
+  "invalid_output_geometries": 0,
+  "empty_output_geometries": 0,
+  "duplicate_output_geoids": 0,
+  "positive_area_overlap_pairs": 0,
+  "tract_vintage": "2010",
+  "bounds_wgs84": [
+    -124.06257,
+    32.55746,
+    -114.13121,
+    41.18498
+  ],
+  "notes": [
+    "Missing tract records are not assigned zero.",
+    "The published layer uses official 2010 Census tract geometry.",
+    "Thirty-nine newer SDG&E records and two local Liberty identifiers are normalized spatially to 2010 tracts.",
+    "Duplicate and overlapping source records are collapsed with max within each tract-month before monthly values are summed.",
+    "SCE's duplicate CES_FINAL reference feature class is excluded."
+  ]
+}

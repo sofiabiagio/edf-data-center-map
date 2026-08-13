@@ -1,0 +1,50 @@
+{
+  "lra_features": 10,
+  "current_lra_features": 10,
+  "lra_names": [
+    "Big Creek / Ventura",
+    "Greater Bay",
+    "Greater Fresno",
+    "Humboldt",
+    "Kern",
+    "LA Basin",
+    "North Coast/North Bay",
+    "San Diego/ IV Area",
+    "Sierra",
+    "Stockton"
+  ],
+  "utility_features_all_published_lse": 85,
+  "utility_features_distribution": 59,
+  "utility_features_iou": 6,
+  "utility_type_counts": {
+    "POU": 47,
+    "CCA": 25,
+    "IOU": 6,
+    "CO-OP": 4,
+    "TRIBAL": 2,
+    "ADMIN": 1
+  },
+  "crs_is_wgs84": true,
+  "all_geometries_nonempty": true,
+  "all_geometries_valid": true,
+  "all_geometries_polygonal": true,
+  "bounds_lon_lat": {
+    "lra": [
+      -124.409568,
+      32.535531,
+      -115.680983,
+      41.465851
+    ],
+    "utilities": [
+      -124.40962,
+      32.534312,
+      -114.131222,
+      42.009508
+    ]
+  },
+  "notes": [
+    "LRAs cover constrained local areas, not the entire state.",
+    "CEC service boundaries are approximate, not legal boundaries.",
+    "CCA areas overlap distribution utilities and are excluded by the default utility loader."
+  ]
+}

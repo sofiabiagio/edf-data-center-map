@@ -1,0 +1,32 @@
+{
+  "cache_created_utc": "2026-07-27T00:11:56+00:00",
+  "crs": "EPSG:4326",
+  "sources": {
+    "local_reliability_areas": {
+      "agency": "California Public Utilities Commission",
+      "item_id": "04e24bc16e2d4ebaa53e10259b7242c1",
+      "feature_service": "https://gis.cpuc.ca.gov/server/rest/services/Hosted/LocalReliabilityAreas/FeatureServer/0",
+      "source_last_edit_utc": "2023-01-26T19:24:02Z",
+      "features": 10,
+      "invalid_source_geometries_repaired": 0
+    },
+    "electric_service_areas_iou_pou": {
+      "agency": "California Energy Commission",
+      "item_id": "30410214d637434ba1003cbdcc32cf55",
+      "feature_service": "https://services3.arcgis.com/bWPjFyq029ChCGur/arcgis/rest/services/ElectricLoadServingEntities_IOU_POU/FeatureServer/0",
+      "source_last_edit_utc": "2025-08-28T16:01:56Z",
+      "features": 53,
+      "invalid_source_geometries_repaired": 8,
+      "caveat": "CEC states that these boundaries are approximate; contact the relevant load-serving entity for authoritative territory information."
+    },
+    "electric_service_areas_other": {
+      "agency": "California Energy Commission",
+      "item_id": "07224640a2fe42f89399be796e7b8810",
+      "feature_service": "https://services3.arcgis.com/bWPjFyq029ChCGur/arcgis/rest/services/ElectricLoadServingEntities_Other/FeatureServer/0",
+      "source_last_edit_utc": "2025-08-28T16:04:24Z",
+      "features": 32,
+      "invalid_source_geometries_repaired": 11,
+      "caveat": "CEC states that not all load-serving entities are represented. CCA polygons overlap the distribution utility that owns the local wires."
+    }
+  }
+}

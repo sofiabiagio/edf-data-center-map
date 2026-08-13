@@ -1,0 +1,5 @@
+source_file,source_layer,source_row,utility,report_year,YYYYMM,source_tract,MaxEvents,MaxHours,MinHours,MedHours,TotCustomer,TotHours,geography_status
+2024_sdge_postsr2a.zip,PSPS_AddressPoints_Tracts_2024_Dec_09_11,1,SDG&E,2024,202412,,1,44.869999,34.630001,36.799999,5,189.899994,unlocatable_null_geometry_and_tract
+2025_sce_postsr2a.zip,SCE_POSTSR2A_3_2_2026,265,SCE,2025,202501,,2,283.799988,6.350000,41.029999,16,1201.770020,unlocatable_null_geometry_and_tract
+2025_sce_postsr2a.zip,SCE_POSTSR2A_3_2_2026,267,SCE,2025,202508,,1,89.940002,89.940002,89.940002,1,89.940002,unlocatable_null_geometry_and_tract
+2025_sce_postsr2a.zip,SCE_POSTSR2A_3_2_2026,268,SCE,2025,202509,,1,18.049999,18.049999,18.049999,1,18.049999,unlocatable_null_geometry_and_tract

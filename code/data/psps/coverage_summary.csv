@@ -1,0 +1,13 @@
+year,utility,source_status,source_records,located_records,reported_impact_tracts,reported_impact_months,sum_of_source_maxevents
+2024,PG&E,impacted_tract_records,299,299,172,5,299
+2024,SCE,impacted_tract_records,913,913,554,5,1014
+2024,SDG&E,impacted_tract_records,78,77,67,2,78
+2024,Liberty,impacted_tract_records,2,2,2,1,5
+2024,PacifiCorp,explicit_no_psps_event,0,0,0,0,0
+2024,BVES,template_without_spatial_records,0,0,0,0,
+2025,PG&E,impacted_tract_records,67,67,65,2,75
+2025,SCE,impacted_tract_records,1499,1496,1222,7,2251
+2025,SDG&E,impacted_tract_records,111,111,84,1,222
+2025,Liberty,impacted_tract_records,2,2,2,1,2
+2025,PacifiCorp,template_without_spatial_records,0,0,0,0,
+2025,BVES,template_without_spatial_records,0,0,0,0,
