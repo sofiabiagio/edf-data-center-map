@@ -1,0 +1,76 @@
+project_name,bucket,line_name,endpoint_a,endpoint_b,kV,driver,approx_miles,notes,project_cost
+Oro Loma 70 kV Area Reinforcement (Re-scope),new_line,,Mercy Springs SW STA,Ortiga,70,Reliability,4,new 70kV circuit,$19M-$37.6M
+Walnut 230 kV CB Upgrade,substation,,Walnut,,230,Reliability,,replace 5 circuit breakers rated 40 kA with CBs with 63 kA rating,$11M-$15M
+Ames 115 kV Short Circuit Mitigation,substation,,Ames,,115,Reliability,,upgrade CBs 112 and 122 to 63 kA,$2.5M-$5M
+DeAnza 115 kV Substation,substation,,DeAnza,,115,Reliability,,"New substation that connects Newark to Monta Vista 115 kV
+lines with Nortech to NRS 115 kV line",$130M-$260M
+Lincoln-Pleasant Grove Line Reconductoring,existing_line,Lincoln-Pleasant Grove,Lincoln,Pleasant Grove,,Reliability,,"Reconductor Lincoln-Pleasant Grove to 795ACSS (rating of 1517 Amps
+for summer emergency",$60M-$120M
+Los Esteros 230 kV Short Circuit Mitigation,substation,,Los Esteros,,230,Reliability,,"build a new GIS bus section and install two (2) 36-ohm bus
+reactors between existing 230 KV Bus E and new GIS bus section.",$10M-$20M
+Mariposa 70 kV Voltage Support,substation,,Mariposa,,70,Reliability,,Install 20 MVar STATCOM device,$31M-$63M
+Metcalf 230 kV Short Circuit Mitigation,substation,,Metcalf,,230,Reliability,,build a new GIS bus section and install two (2) 36-ohm bus reactors between existing 230 KV Bus E and new GIS bus section.,$270M-$405M
+Midway 115 kV Bus Upgrade,substation,,Midway,,115,Reliability,,"Expand Midway 115 kV double bus single breaker configured bus from
+two sections (Sections D and E) to three sections (add new Section F)
+and relocate existing lines and transformers across new sections.",$44M-$89M
+Monta Vista-Loyola-Los Altos 60 kV Line Reconductoring,existing_line,Monta Vista-Loyola,Monta Vista,Loyola,60,Reliability,3.9,"Reconductoring of 3.9 circuit miles between the Monta Vista and Loyola
+substations with a larger conductor to achieve at least 1100 Amps
+during summer emergency conditions",$32M-$64M
+Monta Vista 230/115 kV Transformer Bank Addition,substation,,Monta Vista,,230,Reliability,,"Install new 230/115 transformer bank,  which will have a minimum summer normal rating of 420 MVA and a summer emergency rating of 462 MVA. ",$52M-$104M
+Newark 115 kV Short Circuit Mitigation,substation,,Newark,,115,Reliability,,"build a new GIS bus section and install two (2) 36-ohm bus
+reactors between existing 230 KV Bus E and new GIS bus section",$40M-$60M
+Newark 230/115 kV Bank Upgrade,substation,,Newark,,230,Reliability,,"Replace the existing Newark #11 Transformer bank with a new bank that
+has minimum summer normal rating of 560 MVA and a summer
+emergency rating of 620 MVA",$31.3M-$62.6M
+Nortech 115 kV Short Circuit Mitigation,substation,,Nortech,,115,Reliability,,Upgrade 2 CBs to 63kA,$2.5M-$5M
+San Jose B 230/115 kV Transformer Bank Addition,substation,,San Jose B,,230,Reliability,,Install a parallel 230/115 kV transformer bank ,$34.7M-$69.4M
+Saratoga-Vasona 230 kV Line Reconductoring,existing_line,Saratoga-Vasona,Saratoga,Vasona,230,Reliability,3.4,"Reconductoring of 3.4 miles of 230 kV line to achieve at least 3000
+Amps during summer emergency conditions",$89M-$178M
+South Oakland Reinforcement (Phase 2),new_line,,San Leandro,Grant,115,Reliability,1.5,"New 1.5-mile 115 kV double circuit line from the San Leandro
+substation to pole 005/046 on the Grant-Oakland J line, with a
+summer emergency rating of at least 3428 Amps. This double
+circuit will connect with the San Leandro-Moraga 115 kV line #3
+at the San Leandro substation and with the Oakland J-Grant 115
+kV line on the opposite side. This new connection will create the
+Moraga-Grant and San Leandro-Edes 115 kV lines.
+• Reconductoring Edes Tap #1 and Edes Tap #2 (approximately
+0.05 miles each) to achieve a summer emergency rating of at
+least 3428 Amps.",$43M-$87M
+Tesla-Trimble-Metcalf 230 kV Corridor Expansion,new_line,Tesla-Trimble,Tesla,Trimble,230,Reliability,,Build new 230 kV line,$712M-$1424M
+Tesla-Trimble-Metcalf 230 kV Corridor Expansion,existing_line,Tesla-Newark,Tesla,Newark,,Reliability,,"Reconductor Tesla-Newark #2 up to Sunol Jct using 1113 ACSS
+bundled conductor, or greater and remove cross ties.",$712M-$1424M
+Tesla-Trimble-Metcalf 230 kV Corridor Expansion,new_line,Metcalf-Trimble,Metcalf,Trimble,230,Reliability,,Build new 230 kV line,$712M-$1424M
+Tesla-Trimble-Metcalf 230 kV Corridor Expansion,existing_line,Los Esteros-Metcalf,Los-Esteros,Metcalf,,Reliability,,"Use 1113 ACSS bundled conductor, or greater and remove cross ties",$712M-$1424M
+Tesla-Trimble-Metcalf 230 kV Corridor Expansion,existing_line,Tesla-LLNL,Tesla,AEC 300,115,Reliability,,Move Tesla-LLNL 115 kV to its own pole line and reconductor,$712M-$1424M
+Trimble 115 kV Short Circuit Mitigation,substation,,Trimble,,115,Reliability,,Replace 6 115 kV CBs,$7.8-$15.6M
+Lugo 230 kV CB Upgrade,substation,,Lugo,,230,Reliability,,Replace two existing 63 kA breakers with higher X/R-rated breakers,$4M-$5M
+Devers 230 kV SCD Upgrade,substation,,Devers,,230,Reliability,,Upgrade 24 circuit breakers at the Devers 230 kV switchrack from 63 kA to 80 kA,$124M-$186M
+Lugo 500 kV Reactive Power Reinforcement,substation,,Lugo,,500,Reliability,,300 Mvar STATCOM + cwith 3 200 Mvar switchable capacitor banks,$370M-$450M
+Mesa-Laguna Bell 230 kV #2 Upgrade,existing_line,Mesa-Laguna Bell,Mesa,Laguna Bell,230,Reliability,4.9,"Reconductor 4.9 miles of Mesa – Laguna Bell 230 kV #2 line with ACCC
+Fort Worth - 2B, which has normal and emergency ratings of 1354 MVA
+and 1785 MVA",$41M-$56M
+Etiwanda and Mira Loma 230 kV SCD Upgrade,substation,,Mira Loma,,230,Reliability,,"Expand the Mira Loma 230 kV switchrack by extending the 230 kV
+switchrack and adding two (2) Breaker and a Half (BAAH) positions (No.
+17 and No. 18), and along with relocating the Miro Loma – Vista and Mira
+Loma – Rancho Vista 230 kV lines",$40M-$55M
+Penasquitos-Mira Sorrento 69 kV #2 Line,new_line,Penasquitos-Mira Sorrento,Penasquitos,Mira Sorrento,69,Reliability,4.5,"Build a new ~4.5 miles underground 69 kV line between Penasquitos
+and Mira Sorrento substations with a minimum continuous rating of 136
+MVA.",$114.8M
+TL600B Reconductor,existing_line,,Clairemont,,69,Reliability,0.7,"Reconductor ~0.7 miles of TL600B Clairemont – Clairemont Tap 69 kV
+line to increase its normal rating to 85 MVA.",$7.5M
+TL623C Reconductor,existing_line,San Ysidro-Otay,San Ysidro,Otay,69,Reliability,,Reconductor the remaining limiting underground and overhead segments of TL623C San Ysidro – Otay Tap 69 kV line to increase its normal rating to 136 MVA.,$5.4M
+TL690B / TL697 Reconductor,existing_line,,Oceanside,San Luis Rey,69,Reliability,1.2,"Reconductor ~1.2 miles of TL690B Oceanside – Oceanside Tap and ~0.1
+miles of TL697 San Luis Rey – Oceanside 500 Al underground conductor
+to increase their normal rating to 60 MVA.",$33M
+Ames Distribution-Palo Alto 115 kV Line (Re-scope),substation,,Ames Distribution,,115,Reliability,,"The mapped point marks the existing Ames Distribution endpoint of a revised new Ames Distribution–Palo Alto 115 kV line and 0.1-mile Ames Distribution reconductor. The full route is not represented.",$26M-$52M
+Morgan Hill Area Reinforcement Project (Re-scope),existing_line,Green Valley-Morgan Hill,Green Valley,Morgan Hill,115,Reliability,15,"Representative project component: rebuild the Green Valley–Morgan Hill 115 kV segment. The broader project also loops Metcalf–Llagas into Morgan Hill and rebuilds Morgan Hill substation.",$28M-$47M
+South Bay Reinforcement Project (Re-scope),existing_line,Trimble-San Jose B,Trimble,San Jose B,115,Reliability,,"Representative project component: Trimble–San Jose B reconductoring. The project includes several South Bay line changes; this map does not imply this is its only component.",$217M-$434M
+East Marysville 115/60 kV Project (Re-scope),new_line,,Pease,East Marysville,60,Reliability,,"Representative project component: loop the Pease–Marysville 60 kV line into East Marysville and install a 115/60 kV transformer at East Marysville.",$50.6M-$101M
+Short Circuit Mitigation for Imperial Valley 230 kV Circuit Breakers (Re-scope),substation,,Imperial Valley,,230,Reliability,,"Install two 20-ohm current-limiting reactors and rearrange 230 kV line connections at the existing Imperial Valley substation.",$130M
+Drum-Higgins 115 kV Line Reconductoring,existing_line,Drum-Higgins,Drum,Higgins,115,Policy,30,"Drum – Higgins 115kV line (approximately 30 mile) to a minimum SN rating of 1714 Amps (341 MVA, 954ACSS).",$154M-$308M
+East Shore 230 kV Area Reinforcement,existing_line,,Pittsburg,East Shore,230,Policy,,Looping Pittsburg-San Mateo 230kV Line into East Shore 230 kV substation and then reconductoring the remaining sections of the Pittsburg-East Shore 230kV Lines #1 and #2,$129M-$257M
+Oleum Area Reinforcement,existing_line,Oleum-Martinez,Oleum,Martinez,115,Policy,10.5,"Reconductoring the entire Oleum-Martinez 115 kV line
+(approximately 10.49 mile) with minimum SN rating of 1714
+Amps (341 MVA, 954ACSS).",$83M-$144M
+Trout Canyon-Lugo 500 kV Line,new_line,,Trout Canyon,Lugo,500,Policy,180,Build a new 500 kV transmission line from Trout Canyon 500 kV substation to Lugo 500 kV substation,$1270M-$1800M
+Gates-Los Banos #3 500 kV Line Series Compensation,existing_line,Gates-Los Banos,Gates,Los Banos,500,Economic,,Add 70% series compensation on the Gates-Los Banos #3 500 kV line,$150M

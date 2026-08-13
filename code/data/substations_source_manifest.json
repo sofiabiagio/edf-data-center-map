@@ -1,0 +1,7 @@
+{
+  "source_url": "https://services1.arcgis.com/ZIL9uO234SBBPGL7/arcgis/rest/services/CA_Substations_Final/FeatureServer",
+  "retrieved_at": "2026-07-30T11:51:35Z",
+  "feature_count": 4442,
+  "sha256": "6e62f69f176d89a1cb1004c9c124f7071ff506fb26a45dde9525e32238241dee",
+  "provenance_note": "Versioned CEC-only snapshot reconstructed from the previously validated publication artifact; three documented supplemental TPP reference points were excluded."
+}
