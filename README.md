@@ -22,8 +22,10 @@ python -m http.server --directory dist 8000
 
 Open `http://localhost:8000`. The build writes only `dist/index.html`,
 `dist/.nojekyll`, and lazy-loaded assets under `dist/data/web/`. The production
-site still needs internet access for Carto basemap tiles and the Leaflet assets
+site still needs internet access for CARTO basemap tiles and the Leaflet assets
 that Folium references through CDNs.
+Production builds read the domain-restricted basemap key from the
+`CARTO_BASEMAP_KEY` GitHub Actions secret; the key is never committed to source.
 
 The preserved test command is:
 

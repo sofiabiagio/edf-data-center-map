@@ -11,6 +11,7 @@ import argparse
 import hashlib
 import html
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -62,6 +63,10 @@ DATA_CENTER_PATH = CODE_DIR / "data" / "data_centers_corrected.csv"
 SUBSTATION_SNAPSHOT_PATH = CODE_DIR / "data" / "substations_source.geojson"
 SUBSTATION_MANIFEST_PATH = CODE_DIR / "data" / "substations_source_manifest.json"
 DEFAULT_OUTPUT_DIR = CODE_DIR.parent / "dist"
+CARTO_ATTRIBUTION = (
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, '
+    '&copy; <a href="https://carto.com/attributions">CARTO</a>'
+)
 
 DATA_CENTER_FIELD_LABELS = {
     field: label
@@ -393,13 +398,20 @@ def build_map(*, output_dir: Path = DEFAULT_OUTPUT_DIR, refresh_substations: boo
         psps_frequency=psps_frequency,
     )
 
+    carto_key = os.environ.get("CARTO_BASEMAP_KEY", "").strip()
+    carto_tiles = (
+        "https://{s}.basemaps.cartocdn.com/light_all/"
+        "{z}/{x}/{y}{r}.png"
+        + (f"?key={carto_key}" if carto_key else "")
+    )
     map_object = folium.Map(
         location=[37.25, -119.45],
         zoom_start=6.5,
         zoom_snap=0.5,
         zoom_delta=0.5,
         wheel_px_per_zoom_level=120,
-        tiles="CartoDB positron",
+        tiles=carto_tiles,
+        attr=CARTO_ATTRIBUTION,
         control_scale=True,
     )
     map_object.get_root().header.add_child(
