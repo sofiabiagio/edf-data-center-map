@@ -5,8 +5,7 @@ Commission Small Power Plant Exemption (SPPE) data-center projects and selected
 grid, reliability, environmental, utility, and outage context. It intentionally
 does not publish a general inventory of California data centers.
 
-Public site: `https://<organization>.github.io/edf-data-center-map/` (replace
-`<organization>` after the repository is created and Pages is enabled).
+Public site: `https://sofiabiagio.github.io/edf-data-center-map/`
 
 ## Local setup
 
